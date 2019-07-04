@@ -1,3 +1,6 @@
+## Install with changes by cloning the repo. Going into it
+`:~/activemq-artemis-helm$ jx step helm install activemq-artemis --namespace=jx-staging -d . -n amq`
+
 
 ## 1. What is ActiveMQ Artemis?
 
