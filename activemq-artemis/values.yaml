@@ -17,7 +17,7 @@ artemisUser: artemis
 # artemisPassword sets the artemis admin user password
 artemisPassword: simetraehcapa
 
-replicas: 2
+replicas: 1
 
 # antiAffinity sets an anti affinity policy between masters and slaves as either hard or soft, default is hard
 antiAffinity: "soft"
