@@ -37,7 +37,7 @@ data:
             <initial-connect-attempts>-1</initial-connect-attempts>
             <reconnect-attempts>-1</reconnect-attempts>
 
-            <message-load-balancing>ON_DEMAND</message-load-balancing>
+            <message-load-balancing>STRICT</message-load-balancing>
             <max-hops>1</max-hops>
 
             <static-connectors>
