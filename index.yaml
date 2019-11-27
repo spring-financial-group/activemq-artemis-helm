@@ -22,7 +22,8 @@ entries:
     sources:
     - https://github.com/kubernetes/charts
     - https://github.com/apache/activemq-artemis
+    - https://github.com/spring-financial-group/activemq-artemis-helm
     urls:
-    - https://vromero.github.io/charts/activemq-artemis-0.0.1.tgz
+    - https://spring-financial-group.github.io/charts/activemq-artemis-0.0.1.tgz
     version: 0.0.1
 generated: 2017-03-08T16:30:14.418574063-03:00
