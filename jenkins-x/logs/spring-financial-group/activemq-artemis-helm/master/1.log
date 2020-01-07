@@ -1,0 +1,26 @@
+
+Showing logs for build [32mspring-financial-group-activemq-lbbcv-1[0m stage [32mfrom-build-pack[0m and container [32mstep-credential-initializer-ffqxm[0m
+{"level":"warn","ts":1578404623.1208017,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1578404623.121376,"logger":"fallback-logger","caller":"creds-init/main.go:40","msg":"Credentials initialized."}
+
+Showing logs for build [32mspring-financial-group-activemq-lbbcv-1[0m stage [32mfrom-build-pack[0m and container [32mstep-working-dir-initializer-4dpgt[0m
+{"level":"warn","ts":1578404624.8341935,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: open /var/run/ko/HEAD: no such file or directory"}
+{"level":"info","ts":1578404624.8419583,"logger":"fallback-logger","caller":"bash/main.go:64","msg":"Successfully executed command \"sh -c mkdir -p /workspace/source\"; output "}
+
+Showing logs for build [32mspring-financial-group-activemq-lbbcv-1[0m stage [32mfrom-build-pack[0m and container [32mstep-place-tools[0m
+
+Showing logs for build [32mspring-financial-group-activemq-lbbcv-1[0m stage [32mfrom-build-pack[0m and container [32mstep-git-source-spring-financial-group-activemq-ck2q2[0m
+{"level":"warn","ts":1578404637.9139652,"logger":"fallback-logger","caller":"logging/config.go:69","msg":"Fetch GitHub commit ID from kodata failed: \"ref: refs/heads/0.8.0-**-support-backwards-incompats\" is not a valid GitHub commit ID"}
+{"level":"info","ts":1578404639.4047778,"logger":"fallback-logger","caller":"git/git.go:103","msg":"Successfully cloned https://github.com/spring-financial-group/activemq-artemis-helm.git @ v0.0.1 in path /workspace/source"}
+
+Showing logs for build [32mspring-financial-group-activemq-lbbcv-1[0m stage [32mfrom-build-pack[0m and container [32mstep-git-merge[0m
+Using SHAs from PULL_REFS=master:7ff6490f4d0f15e6abc338bccc1078f26ede53ad
+WARNING: no SHAs to merge, falling back to initial cloned commit
+
+Showing logs for build [32mspring-financial-group-activemq-lbbcv-1[0m stage [32mfrom-build-pack[0m and container [32mstep-setup-jx-git-credentials[0m
+Generated Git credentials file /workspace/xdg_config/git/credentials
+
+Showing logs for build [32mspring-financial-group-activemq-lbbcv-1[0m stage [32mfrom-build-pack[0m and container [32mstep-build-helm-build[0m
+/bin/sh: line 0: cd: /workspace/source/charts/activemq-artemis-helm: No such file or directory
+[31m
+Pipeline failed on stage 'from-build-pack' : container 'step-build-helm-build'. The execution of the pipeline has stopped.[0m
